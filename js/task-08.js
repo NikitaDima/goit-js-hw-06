@@ -11,7 +11,7 @@ loginFormEl.addEventListener('submit', (event) => {
     console.log(`Значення password: ${password.value}`);
 
     if(email.value === '' || password.value === '') {
-        alert('Всі поля мають бути заповнені');
+       return alert('Всі поля мають бути заповнені');
     }
     loginFormEl.reset();
 })
