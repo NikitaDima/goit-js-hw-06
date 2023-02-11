@@ -22,8 +22,7 @@ function createBoxes(amout) {
 
 function destroyBoxes() {
   inputEl.value = '';
-  const removeEl = boxesConteiner.children;
-  
+  boxesConteiner.innerHTML = '';
 }
 
 
